@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question-5 : </title>
+    <style>
+         body{
+            background-color: #fc0505;
+         }
+      .container2 {
+        display: grid;
+        grid-template-columns: 50vw 30vw 15vw;
+        background-color: #b08426;
+      }
+      .first {
+        margin: auto;
+        font-family: sans-serif;
+        background-color: aliceblue;
+      }
+      img[alt="menu"] {
+        height: 100vh;
+        width: 30vw;
+      }
+      .third {
+        height: 100vh;
+        grid-column-end: 1 / span 2;
+        background-color: yellow;
+      }
+      #two {
+        background-color: #0f0f0f;
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 40px;
+        width: 140px;
+        position: relative;
+        bottom: 10px;
+        color: white;
+        font-size: large;
+        font-family: monospace;
+        left: 10px;
+      }
+      .container1 {
+        border: 2px solid black;
+        height: 10vh;
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+
+      img[alt="logo"] {
+        height: 60px;
+        width: 60px;
+        border: 2px groove #f3e0bd;
+        border-radius: 50%;
+        position: relative;
+        left: 25px;
+        top: 5px;
+      }
+      .two {
+        margin: auto;
+      }
+      ul {
+        display: grid;
+        grid-template-columns: 10vw 10vw 10vw;
+      }
+      li {
+        list-style: none;
+        font-family: sans-serif;
+      }
+      #one {
+        background-color: black;
+        color: white;
+        height: 40px;
+        width: 120px;
+        border: 2px groove black;
+        border-radius: 5px;
+        font-family: monospace;
+        font-weight: bolder;
+        font-size: larger;
+      }
+      .three {
+        margin: auto;
+        position: relative;
+        right: 5px;
+      }
+      .container1 {
+        background-color: #e6d3af;
+      }
+      .fifth{
+         display:grid;
+         grid-template-columns: auto;
+      }
+      img[alt="swiggyservice"]{
+        height:80%;
+        width :100%;
+      }
+      .head{
+         display:grid;
+         grid-template-rows: auto auto auto;
+         grid-gap:5px;
+      }
+      .container4{
+         display:grid;
+         grid-template-columns: auto auto auto;
+          justify-content: space-evenly;
+      }
+      .sixth ,.seventh ,.eight{
+          background-color: aliceblue;
+          height: 400px;
+          width:300px;
+          border:2px solid black;
+          border-radius: 10px;
+      }
+      img[alt="dishes1"] , img[alt="dishes2"] , img[alt="dishes3"] {
+         height:300px;
+         width:300px;
+         border-radius:10px;
+      }
+      #three , #five , #seven{
+           font-family: sans-serif;
+           font-size: larger;
+           font-weight: bolder;
+      }
+      #four , #six , #eight{
+           font-family: Arial;
+      }
+      .container5{
+          display:grid;
+          grid-template-rows: auto auto;
+          background-color:#733b3b;
+      }
+      .subcontainer{
+
+          display:grid;
+          grid-template-columns: auto auto auto;
+          justify-content: space-evenly;
+      }
+      img[alt="logo2"]{
+           height:300px;
+           width:300px;
+           position:relative;
+           top:25px;
+           right:120px;
+      }
+      #ninth , #tenth{
+           color:white;
+           font-size: xx-large;
+           font-family: sans-serif;
+      }
+      .twelvth{
+          margin:auto;
+          color:white;
+          font-size: large;
+      }
+     .left , .right{
+          display:grid;
+          grid-template-columns: 10px;
+          line-height: 30px;
+          color:#f7f782;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head">
+    <header class="container1">
+      <div class="one"><img src="logo.jpeg" alt="logo" /></div>
+      <div class="two">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="three"><button id="one">Login</button></div>
+    </header>
+    <section class="container2">
+      <div class="first">
+        <h1>Healthy Food</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et placeat
+          fugit in saepe nobis adipisci itaque vero cupiditate deleniti eos
+          laborum quos, incidunt mollitia dignissimos error. Nemo recusandae,
+          beatae, voluptatibus voluptatum consequuntur ipsa voluptate molestiae
+          illum aliquam debitis eius atque!
+        </p>
+        <button id="two">Read More</button>
+      </div>
+      <div class="second"><img src="menu.jpeg" alt="menu" /></div>
+      <div class="third"></div>
+    </section>
+    <section class="container3">
+      <div class="fifth">
+        <img src="swiggy.jpeg" alt="swiggyservice" />
+      </div>
+    </section>
+    <section class="container4">
+         <div class="sixth">
+            <img src="dishes1.jpeg" alt="dishes1">
+             <p id="three">Order Online</p>
+             <p id="four">Stay Home and order to your Door Step</p>
+            </div>
+            <div class="seventh">
+                <img src="dishes2.jpeg" alt="dishes2">
+                <p id="five">On-site Dining</p>
+                <p id="six">View the city's favourite dining venues.</p> 
+            </div>
+            <div class="eight">
+                <img src="dishes3.jpeg" alt="dishes3">
+                <p id="seven">Nightlife & Clubs</p>
+                <p id="eight">Explore the city's top nightlife outlets & Book tables.</p>
+           </div> 
+    </section>
+    <section class="container5">
+        <div class="subcontainer">
+        <div class="ninth"><img src="logo2.jpeg" alt="logo2"></div>
+        <div class="tenth">
+            <p id="ninth">Navigation Links</p>
+            <ul class="left">
+                <li>Name</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Login</li>
+            </ul>
+        </div>
+        <div class="eleventh">
+            <p id="tenth">Learn More</p>
+            <ul class="right">
+                <li>Privacy</li>
+                <li>Security</li>
+                <li>Terms</li>
+                <li>Sitemap</li>
+            </ul>
+        </div>
+    </div>
+      <div class="twelvth">
+        <p>&copy; Copyright All rights Reserved</p>
+      </div>
+    </section>
+</div>
+  </body>
+</html>
